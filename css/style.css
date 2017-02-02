@@ -1,0 +1,348 @@
+/*html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,
+b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,
+nav,output,ruby,section,summary,time,mark,audio,video*/*{
+margin:0;
+padding:0;
+border:0;
+font:inherit;
+font-size:100%;
+vertical-align:baseline
+}
+
+html{height:100%;}
+body{
+height: 100%;
+font-family:Times New Roman, Arial, Helvetica, sans-serif, OpenSans Bold, OpenSans, After working togeth;
+font-size: 14px/18px;
+background: #fff; 
+}
+ol, ul {
+list-style: none;
+}
+* {
+margin: 0;
+padding: 0;
+outline: none;
+-webkit-box-sizing: border-box;/* Ширина блока с полями */
+-moz-box-sizing: border-box;
+box-sizing: border-box; 
+}
+a, a:hover { text-decoration: none; }
+.clearfix:before, .clearfix:after {
+content: "";
+display: table;
+color: #9DAEB6 !important;
+}
+.clearfix:after{
+clear: both;
+}
+.left{float: left;}
+.right{float: right;}
+
+#header{
+padding: 20px 0;
+margin: 0 auto;
+max-width:1920px;
+height:700px;
+background: url(../img/home-bg.jpg) no-repeat center center;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+}
+.container{
+width: 1135px;
+margin: 0 auto;
+
+}
+.logo{
+ float: left;
+ margin-left: 1%;
+}
+.nav{
+ float: left;
+ margin-left: 105px;
+ padding-top: 6px;
+ }
+ .nav li{
+ float: left;
+ margin-right: 23px; 
+ font-weight: 700;
+ 
+ }
+.nav a{
+	text-transform: uppercase;
+	font: 12px Times;
+	font-weight: 700;
+	color: #9DAEB6;
+	text-decoration:none;
+}
+.nav li:last-child{
+margin-right: 0;
+}
+.nav a:hover{
+	color: #36AEEA;
+	text-decoration: underline;
+}
+.container button{
+    float: right;
+    display: inline-block;
+	width: 145px;
+	height: 45px;
+	color: #67bae9;
+	background: inherit;
+	border: 4px solid #67bae9;
+	border-radius: 5px;
+	text-align: center;
+	font: 90% Times New Roman bold;
+	text-transform: uppercase;
+	
+	cursor: pointer;
+}
+.container button:hover{
+	border: 5a9ec0;
+	background-color: rgba(8,107,156, 0.2);
+	color: #fff;
+}
+#home{
+  	margin: 200px auto 60px;
+	background: url(../img/Rectangle1.png) no-repeat center;
+	height: 324px;
+	width: 1135px;
+	padding: 2px;
+	
+}
+.travel{
+   	margin-left:36px;
+	margin-top: 28px;
+	color: #fff;
+	font-weight: bold;
+	font: 300% OpenSans Bold;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	}
+.mont{
+    margin-left:36px;
+	margin-top: -29px;
+	color: #56C7FF;
+	font-weight: bold;
+	font: 400% Bringin oblique;
+	letter-spacing: 2px;
+}
+.text{
+  	margin-left:36px;
+	margin-top: 5px;
+	color: #CED3D8;
+	font-weight: regular;
+	font: 150% OpenSans;
+}
+.btn{
+	display: inline-block;
+	color: #fff;
+	background-color:#36AEEA;
+	font: 90% Times New Roman bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 25px;
+	margin-left:36px;
+	padding: 24px 74px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color:#00A3F0;
+}
+#blog{
+padding: 20px 0;
+width:100%;
+height:670px;
+background: url(../img/blog-bg.jpg) no-repeat center;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+}
+
+
+.about{
+	width: 1135px;
+	
+	margin: 180px auto 60px; 
+}
+.text1{
+	margin-left: 0px;
+	margin-top: 30px;
+	color: #000;
+	font: 130% OpenSans Bold;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.text2{
+	margin-left: 0px;
+	margin-top: 18px;
+	color: #777;
+	font: 110% OpenSans;
+	font-weight: 500;
+	line-height: 1.5;
+}
+.btn1{
+	display: inline-block;
+	min-width: 125px;
+	min-height: 40px;
+	color: #fff;
+	background:#36AEEA;
+	font: 70% Times New Roman bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	margin-left: 0px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn1:hover{
+	background-color:#00A3F0;
+}
+.berg1{
+	background: #ccc;
+    display: inline-block;
+    margin-left: 49%;
+    margin-top: -530px;
+    width: 806px;
+  
+    z-index: 1;
+}
+.berg2{
+    background: #ccc;
+    display: inline-block;
+    margin-left: 43%;
+    margin-top: -270px;
+    width: 350px;
+     
+    z-index: 2;
+}
+#journal{
+padding: 20px 0;
+width:100%;
+min-height:1060px;
+background: inherit;
+}
+#journal p{
+	font: 190% OpenSansBold;
+	font-weight: 600;
+	letter-spacing: 3px; 
+	color: #000;
+	text-transform: uppercase;
+	padding-top: 20px; 
+}
+.journal {
+	max-width: 1140px;
+	width: 70%;
+	height: 760px;
+	box-sizing: border-box;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3); /* Параметры тени */
+	margin: 70px auto;
+}
+.journal_box {
+	width: 100%;
+	height: 50%;
+	margin: 0;
+	
+}
+.little_box {
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	width: 33.333%;
+	height: 379px;
+	background: #fff;
+	text-align: center;
+	letter-spacing: 3px; 
+}
+.journal h1 {
+	font: 107% OpenSansBold;
+	font-weight: 600;
+	letter-spacing: 1.5px; 
+	color: #000;
+	text-transform: uppercase;
+	padding-top: 50px; 
+	line-height: 1.4;
+}
+.journal h2 {
+	font: 70% OpenSansBold;
+	font-weight: 600;
+	letter-spacing: 1px; 
+	color: #36AEEA;
+	text-transform: uppercase;
+	padding-top: 43px; 
+}
+.journal h3 {
+	font: 110% After working togeth;
+	font-weight: 400;
+	letter-spacing: 0; 
+	color: #777;
+	line-height: 1.3;
+	padding-top: 20px; 
+}
+.journal h4 {
+	font: 90% OpenSansBold;
+	color: #999;
+	margin-top: 35px;
+	font-style: italic;
+}
+#offer{
+	padding: 20px 0;
+	background-color: #f6f4f4;
+	background: url(../img/offer.jpg) no-repeat center; 
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+}
+#offer p{
+	margin-left: 0px;
+	padding-left: 0;
+}
+.offer{
+	margin: 120px auto;
+	max-width: 1140px;
+	width: 70%;
+}
+.form{
+	margin-top: 30px;
+	width: 850px;
+	height: 60px;
+	background-color: #fff;
+}
+.form li{
+	float: left;
+	margin-left: 25px;
+    margin-right: 190px; 
+    margin-top: 15px; 
+    font-weight: 700;
+    font: 130% OpenSans;
+    color: #888;
+}
+
+
+
+/*.click{
+    height: 50px;
+	width: 200px;
+	background-color:#36AEEA;
+	margin-left:36px;
+	margin-top: 35px;
+	border-radius: 4px;
+}
+.button{
+	display: block;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+   
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    font-weight: normal;
+    text-align: center;
+    font: 200% OpenSans bold;
+    color: #fff;
+}*/
